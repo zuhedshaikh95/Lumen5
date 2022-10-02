@@ -1,0 +1,15 @@
+.active{
+    background-color: #5D6575;
+    padding: 15px 18px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+.default{
+    background-color: white;
+    padding: 15px 18px;
+    border-radius: 50px;
+    color: #5D6575;
+    cursor: pointer;
+}

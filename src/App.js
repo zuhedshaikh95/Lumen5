@@ -1,9 +1,12 @@
-import './App.css';
+import AllRoutes from "./components/AllRoutes";
+import Navbar from "./components/Navbar";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Zuhed Shaikh</h1>
+      <Navbar />
+      <AllRoutes />
     </div>
   );
 }

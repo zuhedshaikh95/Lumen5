@@ -1,3 +1,80 @@
 .App {
   text-align: center;
+  background-color: #FAFAFB;
+}
+
+.hero-image {
+  background-image: url("https://storage.googleapis.com/lumen5-site-images/website-assets/image-hero.png");
+  height: 500px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.play-icon {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  position: relative;
+  top: 125px;
+  left: 42%;
+  opacity: 0.9;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  background: #fff;
+  display: none;
+}
+
+.signup-template{
+  background-image: url("https://storage.googleapis.com/lumen5-site-images/website-assets/cta-bg.png");
+  height: 65vh;
+  background-size: cover;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+}
+
+.logo{
+  width: 120px;
+}
+/* fontWeight="400" color="#5846F6" px={7} borderRadius="full" border="1px solid #5846F6" bg="white"  */
+#login-btn, #signup-btn{
+  font-weight: 400;
+  border: 1px solid #5846F6;
+  color: #5846F6;
+  border-radius: 50px;
+  padding: 0 20px;
+  background-color: white;
+}
+
+#signup-btn{
+  background-color: #5846F6;
+  color: white;
+}
+
+#login-btn:hover{
+  background-color: #5846F6;
+  color: white;
+}
+
+.nav-colored{
+  background-color: red;
+}
+
+.nav-transparent{
+  background-color: black;
+}
+
+#signup-btn:hover{
+  background-color: #4636C5;
+}
+
+nav a{
+  color: #48505E;
+}
+
+nav a:hover, nav button:hover{
+  color: #000;
 }
