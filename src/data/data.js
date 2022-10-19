@@ -64,4 +64,147 @@ const videos = [
   },
 ];
 
-export { partners, videos };
+const yearly = [
+  {
+    title: "Community",
+    bio: "For casual video enthusiasts and fun",
+    price: 0,
+    validity: "forever free",
+    included: "What's included:",
+    whatsIncluded: [
+      "Unlimited videos",
+      "Contains Lumen5 watermark",
+      "720p video resolution",
+    ],
+    type:"year"
+  },
+  {
+    title: "Basic",
+    bio: "For creating simple unbranded videos",
+    price: 19,
+    validity: "per month, billed yearly",
+    included: "Everything in Free, plus:",
+    whatsIncluded: [
+      "No Lumen5 branding",
+      "Access to icons",
+    ],
+    type:"year"
+  },
+  {
+    title: "Starter",
+    bio: "For the individual content creator",
+    price: 59,
+    validity: "per month, billed yearly",
+    included: "Everything in Basic, plus:",
+    whatsIncluded: [
+      "50M stock photos & videos",
+      "Custom colors & styles",
+      "1080p video resolution",
+    ],
+    type:"year"
+  },
+  {
+    title: "Professional",
+    bio: "For the professional video storyteller",
+    price: 149,
+    validity: "per month, billed yearly",
+    included: "Everything in Starter, plus:",
+    whatsIncluded: [
+      "500M stock photos & videos",
+      "Custom watermarks",
+      "Upload your own fonts",
+      "Multiple saved templates",
+      "Multiple brand kits",
+    ],
+    type:"year"
+  },
+  {
+    title: "Enterprise",
+    bio: "For marketing & communication teams",
+    price: "Custom",
+    validity: "",
+    included: "",
+    whatsIncluded: [
+      "Lumen5 design team",
+      "Bespoke branded templates",
+      "Dedicated customer success",
+      "Teams & collaboration",
+      "Enterprise-level security",
+    ],
+    type:"year"
+  }
+];
+
+const monthly = [
+  {
+    title: "Community",
+    bio: "For casual video enthusiasts and fun",
+    price: 0,
+    validity: "forever free",
+    included: "What's included:",
+    whatsIncluded: [
+      "Unlimited videos",
+      "Contains Lumen5 watermark",
+      "720p video resolution",
+    ],
+    type:"month"
+  },
+  {
+    title: "Basic",
+    bio: "For creating simple unbranded videos",
+    price: 29,
+    validity: "per month",
+    included: "Everything in Free, plus:",
+    whatsIncluded: [
+      "No Lumen5 branding",
+      "Access to icons",
+    ],
+    type:"month"
+  },
+  {
+    title: "Starter",
+    bio: "For the individual content creator",
+    price: 79,
+    validity: "per month",
+    included: "Everything in Basic, plus:",
+    whatsIncluded: [
+      "50M stock photos & videos",
+      "Custom colors & styles",
+      "1080p video resolution",
+    ],
+    type:"month"
+  },
+  {
+    title: "Professional",
+    bio: "For the professional video storyteller",
+    price: 199,
+    validity: "per month",
+    included: "Everything in Starter, plus:",
+    whatsIncluded: [
+      "500M stock photos & videos",
+      "Custom watermarks",
+      "Upload your own fonts",
+      "Multiple saved templates",
+      "Multiple brand kits",
+    ],
+    type:"month"
+  },
+  {
+    title: "Enterprise",
+    bio: "For marketing & communication teams",
+    price: "Custom",
+    validity: "",
+    included: "",
+    whatsIncluded: [
+      "Lumen5 design team",
+      "Bespoke branded templates",
+      "Dedicated customer success",
+      "Teams & collaboration",
+      "Enterprise-level security",
+    ],
+    type:"month"
+  }
+];
+
+
+export { partners, videos, yearly, monthly };

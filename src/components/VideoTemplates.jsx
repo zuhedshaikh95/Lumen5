@@ -18,7 +18,7 @@ export default function VideoTemplates() {
       </Text>
       <Flex w="full" p={0} flexWrap="wrap" justifyContent="center" gap={8}>
         {videos.map((video, index) => (
-          <Box w="350px" key={index} p={0}>
+          <Box w={{base:"container.sm", md:"350px"}} key={index} p={0}>
             {/* <Box className="play-icon">
             <i className="fa-solid fa-play"></i>
           </Box> */}

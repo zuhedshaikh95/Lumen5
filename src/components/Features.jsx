@@ -3,15 +3,15 @@ import { Container, Flex, Image, VStack, Box, Center, Spacer, Heading, Text, Lin
 export default function Features() {
   return (
     <Container maxW="80%" p={0} m="auto" my={10}>
-      <Flex maxW="full" p={0} alignItems="flex-end" justifyContent="center" my={20}>
-        <Box boxSize="lg" w="50%" >
+      <Flex maxW="full" p={0} alignItems="flex-end" justifyContent="center" my={20} direction={{base:"column-reverse", md:"row"}}>
+        <Box boxSize="lg" w={{base:"100%", md:'50%'}} >
           <Image
             src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-content.png"
             objectFit="contain"
           />
         </Box>
         <Spacer />
-        <VStack w="50%" textAlign="left" alignItems="flex-start"  pl={20}>
+        <VStack w={{base:"100%", md:'50%'}} textAlign="left" alignItems="flex-start"  pl={20}>
           <Center bg="#5846F6" w="60px" h="60px" borderRadius="full">
             <span
               style={{ color: "white", fontSize: "38px" }}
@@ -41,7 +41,7 @@ export default function Features() {
         </VStack>
       </Flex>
 
-      <Flex maxW="full" direction="row-reverse" p={0} alignItems="flex-end" justifyContent="center" my={20}>
+      <Flex maxW="full" p={0} alignItems="flex-end" justifyContent="center" my={20} direction={{base:"column-reverse", md:"row"}}>
         <Box boxSize="lg" w="50%" >
           <Image
             src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-media.png"
@@ -49,7 +49,7 @@ export default function Features() {
           />
         </Box>
         <Spacer />
-        <VStack w="50%" textAlign="left" alignItems="flex-start"  pl={20}>
+        <VStack w={{base:"100%", md:'50%'}} textAlign="left" alignItems="flex-start"  pl={20}>
           <Center bg="#02D3DA" w="60px" h="60px" borderRadius="full">
             <span
               style={{ color: "white", fontSize: "38px" }}
@@ -79,15 +79,15 @@ export default function Features() {
         </VStack>
       </Flex>
 
-      <Flex maxW="full" p={0}alignItems="center" justifyContent="center" my={20}>
-        <Box boxSize="lg" w="50%" >
+      <Flex maxW="full" p={0}alignItems="center" justifyContent="center" my={20}  direction={{base:"column-reverse", md:"row"}}>
+        <Box boxSize="lg" w="50%">
           <Image
             src="https://storage.googleapis.com/lumen5-site-images/website-assets/image-customize.png"
             objectFit="contain"
           />
         </Box>
         <Spacer />
-        <VStack w="50%" textAlign="left" alignItems="flex-start"  pl={20}>
+        <VStack w={{base:"100%", md:'50%'}} textAlign="left" alignItems="flex-start"  pl={20}>
           <Center bg="#F8558E" w="60px" h="60px" borderRadius="full">
             <span
               style={{ color: "white", fontSize: "45px" }}

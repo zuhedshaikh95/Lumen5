@@ -17,8 +17,8 @@ export default function Masthead() {
   return (
     <>
       <Container maxW="container.lg" p={0} pt={40}>
-        <Flex w="full" p={0}>
-          <Box w="35%" pl={10} textAlign="left">
+        <Flex w="full" p={0} direction={{base:"column", md:"row"}} alignItems="center">
+          <Box w={{base:"80%", md:"30%"}} pl={10} textAlign="left" pb={20}>
             <Heading mb={10}>
               Grow your brand and drive demand with video at scale
             </Heading>
